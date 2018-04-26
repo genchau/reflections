@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you run "git init", git will add a .git folder into the repository. But it does not make a commit yet. You need to do this step because that's how it works, you can't make any commits to a non-repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area is the intermediate stage, and allows us to start packing our things in there before a commit. There may be times I don't want to commit the whole directory, so the staging area allows me to pick and choose.
