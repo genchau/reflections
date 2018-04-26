@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Since it compared letters to letters, it can easily identify typos, or other nuisance.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I broke the code somewhere I can revert to a last known version and compare it.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When I manually version control my code, I can somehow categorize when I want it saved. Say for example when I have fixed a certain bug. I do like the automatic version control of Google Docs, but only when using it as a word document, spreadsheet, presentation. That way I don't have to worry about losing my work. When I do commit a major change, I usually fork a copy over, rename it, and then do the work there. So I'll stick with manual version control for coding software, but I won't be opposed if the computer gets smart enough to know how to break the versions into manageable and smart chunks.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A software package, is just like that, a whole package of individual pieces woven together to work together. Changes in multiple pieces may be needed to execute the bigger picture. Therefore saving the entire package as a version makes more sense.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Reading through the commit logs and changes can help identify how something was implemented.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    A lot more confident. Anything that breaks the code, we can easily revert to last known working commit and see how we broke it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Don't really know. I'll see what the course requires of me and Git.
