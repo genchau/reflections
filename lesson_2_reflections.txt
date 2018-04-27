@@ -5,3 +5,32 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	Staging area is the intermediate stage, and allows us to start packing our things in there before a commit. There may be times I don't want to commit the whole directory, so the staging area allows me to pick and choose.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Running "git status" will give me my staging area. I can view here what I want to commit, and can even run "git diff" to see the exact changes. I can then compose a commit message that pertains to the changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are useful say in creating a slightly different version of a game. Or in creating the software in a diffferent language. That way the main branch, the original usage objective, is not affected.
+
+How do the diagrams help you visualize the branch structure?
+
+	It easily demonstrates how branches separates and become their own branch. To merge them back together is a process.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It combines the changes done by both branches and merge them into a single commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Definitely automatic merging is a good thing to have. It's basically doing the same thing I would had done manually, but thousands of times faster. Merge manually is only good for conflicts, when 2 users make changes to the same part of the script.
+
+
+
+
+
+
+
+
+
